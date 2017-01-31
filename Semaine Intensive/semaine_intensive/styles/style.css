@@ -14,8 +14,12 @@ body{
 	font-family:"terminaldosis";
 	src:url("../font/TerminalDosis-VaivaiRegular.ttf")format("truetype");
 }
+/***HEADER*****/
 
-li {
+header{
+	position:relative;
+}
+header>ul>li {
 	display: inline-block;
 	font-family: "mainlevee";
 	font-size: 25px;
@@ -27,14 +31,11 @@ header>ul>li>a>img{
 header>ul>li.menu{
 	padding-top: 20px;
 }
-header{
-	position:relative;
-}
-
-a{
+header>ul>li>a{
 	text-decoration: none;
 	color: black;
 }
+/******MAIN******/
 
 .slider {
 	background-size: contain;
@@ -55,11 +56,23 @@ a{
 	top:800px;
 	right:0px;
 }
-p{
+div>h1+p{
 	font-family: "terminaldosis";
 	margin-top: -50px;
 }
 .vaivai{
 	font-family: "vaivai";
 	font-size : 100px;
+}
+.slick-prev{
+	z-index: 2;
+}
+/*******FOOTER********/
+
+.footer{
+   padding: 50px 10px 0px;
+  background: #333333;
+  text-align: center;
+	height: 250px;
+	margin-top:800px;
 }
