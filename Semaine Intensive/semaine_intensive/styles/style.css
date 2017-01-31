@@ -70,15 +70,38 @@ div>h1+p{
 	margin-top : 400px;
 }
 .lieux>div{
-	padding:-500px;
-}
+	padding: ;}
+
 /*******FOOTER********/
 
-.footer{
-	padding: 50px 10px 0px;
-	background: #333333;
-	text-align: center;
-	height: 250px;
-	margin-top:800px;
+footer{
+  background: #ffffff;
+  text-align: center;
+  padding: 15px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+footer>ul>li{
+	display: inline-block;
+}
+footer>nav>ul>li{
+	display: inline-block;
+}
+footer>nav>ul>li>a{
+	border-right: 1.25px solid #75716a;
+	padding-right : 3px;
+	color: #75716a;
+}
+footer>nav>ul>li>a#last{
+	border-right: none;
+}
+.social svg path, .social svg circle {
+  fill: #ed237a;
 }
 
+.social svg:hover path, .social svg:hover circle {
+  fill: #75716a;
+}
