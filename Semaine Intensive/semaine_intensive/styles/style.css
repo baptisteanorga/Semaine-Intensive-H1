@@ -69,9 +69,6 @@ div>h1+p{
 .lieux{
 	margin-top : 400px;
 }
-.lieux>div{
-	padding: ;}
-
 /*******FOOTER********/
 
 footer{
@@ -82,7 +79,6 @@ footer{
   bottom: 0;
   width: 100%;
   height: 250px;
-  overflow: hidden;
 }
 footer>ul>li{
 	display: inline-block;
