@@ -4,15 +4,15 @@ body{
 
 @font-face{
 	font-family:'mainlevee';
-	src:url("../font/main_levee.ttf")format("truetype");
+	src:url("fonts/main_levee.ttf")format("truetype");
 }
 @font-face{
 	font-family: "vaivai";
-	src:url("../font/Vaivai.ttf")format("truetype");
+	src:url("fonts/Vaivai.ttf")format("truetype");
 }
 @font-face{
 	font-family:"terminaldosis";
-	src:url("../font/TerminalDosis-VaivaiRegular.ttf")format("truetype");
+	src:url("fonts/TerminalDosis-VaivaiRegular.ttf")format("truetype");
 }
 /***HEADER*****/
 
@@ -50,8 +50,6 @@ header>ul>li>a{
 }
 .widget{
 	width: 25%;
-	border: 1px solid;
-	border-radius: 10px;
 	position : absolute;
 	top:800px;
 	right:0px;
@@ -67,12 +65,20 @@ div>h1+p{
 .slick-prev{
 	z-index: 2;
 }
+
+.lieux{
+	margin-top : 400px;
+}
+.lieux>div{
+	padding:-500px;
+}
 /*******FOOTER********/
 
 .footer{
-   padding: 50px 10px 0px;
-  background: #333333;
-  text-align: center;
+	padding: 50px 10px 0px;
+	background: #333333;
+	text-align: center;
 	height: 250px;
 	margin-top:800px;
 }
+
