@@ -1,0 +1,65 @@
+body{
+	color:black;
+}
+
+@font-face{
+	font-family:'mainlevee';
+	src:url("../font/main_levee.ttf")format("truetype");
+}
+@font-face{
+	font-family: "vaivai";
+	src:url("../font/Vaivai.ttf")format("truetype");
+}
+@font-face{
+	font-family:"terminaldosis";
+	src:url("../font/TerminalDosis-VaivaiRegular.ttf")format("truetype");
+}
+
+li {
+	display: inline-block;
+	font-family: "mainlevee";
+	font-size: 25px;
+}
+
+header>ul>li>a>img{
+	height: 50px;
+}
+header>ul>li.menu{
+	padding-top: 20px;
+}
+header{
+	position:relative;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.slider {
+	background-size: contain;
+}
+.slider>img {
+	max-width : 100%;
+	height: auto;
+	display: block;
+}
+.legende{
+	margin-top: 100px;
+}
+.widget{
+	width: 25%;
+	border: 1px solid;
+	border-radius: 10px;
+	position : absolute;
+	top:800px;
+	right:0px;
+}
+p{
+	font-family: "terminaldosis";
+	margin-top: -50px;
+}
+.vaivai{
+	font-family: "vaivai";
+	font-size : 100px;
+}
