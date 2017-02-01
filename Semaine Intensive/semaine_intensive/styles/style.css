@@ -14,8 +14,13 @@ body{
 	font-family:"terminaldosis";
 	src:url("fonts/TerminalDosis-VaivaiRegular.ttf")format("truetype");
 }
+.clearboth{
+	clear: both;
+}
 /***HEADER*****/
-
+.banniere_index{
+	padding-top: 0px;;
+}
 header>ul>li {
 	display: inline-block;
 	font-family: "mainlevee";
@@ -69,13 +74,17 @@ section{
 }
 
 /********MAIN PRODUITS******/
-.produits{
-	margin-top: 3%;
-	margin-bottom: 10%;
+.banniere_produits{
+	margin-top: 20px;
 }
-.produit_1, .produit_2, .produit_3{
+.produits{
+	margin-top: 4%;
+	margin-bottom: 3%;
+}
+.produit_1, .produit_2, .produit_3, .produit_4, .produit_5, .produit_6, .produit_7, .produit_8, .produit_9{
 	position: relative;
 }
+
 img[class^="plus_"]{
 	position: absolute;
 	bottom:5%;
@@ -91,9 +100,14 @@ div[class^="txt_prod_"]{
 	margin : auto;
 	top:-20%;
 }
-
-
-
+img[class^="croix_"]{
+	position: absolute;
+	top:0;
+	right:0;
+}
+div[class^=rond_]{
+	display:none;
+}
 
 
 
