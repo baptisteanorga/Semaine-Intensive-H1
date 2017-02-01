@@ -29,6 +29,7 @@ header>ul>li {
 
 header>ul>li>a>img{
 	height: 50px;
+	margin-top:5%;
 }
 header>ul>li.menu{
 	padding-top: 20px;
@@ -62,9 +63,6 @@ div>h1+p{
 	font-family: "vaivai";
 	font-size : 100px;
 }
-.slick-prev{
-	z-index: 2;
-}
 
 .lieux{
 	margin-top : 400px;
@@ -90,16 +88,30 @@ img[class^="plus_"]{
 	bottom:5%;
 	right:15%;
 }
-div[class^="txt_prod_"]{
+.info_produits{
 	position:absolute;
 	border-radius: 50%;
-	background-color: red;
-	width: 350px;
-	height: 350px;
-	opacity: 0.5;
+	width: 355px;
+	height: 355px;
 	margin : auto;
 	top:-20%;
+	opacity: 0.5;
 }
+/************* COULEURS RONDS******/
+
+.bleu{
+	background-color: #73bbdd;
+}
+.vert{
+	background-color:#99ca3c;
+}
+.jaune{
+	background-color: #efbe37;
+}
+.turquoise {
+	background-color: #07d0dd;
+}
+
 img[class^="croix_"]{
 	position: absolute;
 	top:0;
