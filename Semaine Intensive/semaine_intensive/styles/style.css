@@ -92,6 +92,35 @@ img[class^="plus_"]{
 	position: absolute;
 	bottom:5%;
 	right:15%;
+	width: 10%;
+}
+div[class^=categorie_]{
+	position: absolute;
+	left:0%;
+}
+
+div[class^=categorie_]>img{
+	width: 5%;
+	margin-top:-2%;
+}
+div[class^=categorie_]>h3{
+	font-family: 'terminaldosis semibold';
+	font-size: 120%;
+	display: inline-block;
+	padding-left: 2%;
+}
+/**** COULEURS H3 TITRE****/
+.titre_vert{
+	color: #99ca3c;
+}
+.titre_bleu{
+	color: #73bbdd;
+}
+.titre_jaune{
+	color: #efbe37;
+}
+.titre_turquoise{
+	color: #07d0dd;
 }
 .info_produits{
 	position:absolute;
@@ -122,22 +151,23 @@ img[class^="plus_"]{
 /************* INFOS PRODUITS******/
 
 .bleu{
-	background-color: #73bbdd;
+	background-color: #b2dcf0;
 }
 .vert{
-	background-color:#99ca3c;
+	background-color:#c6e688;
 }
 .jaune{
-	background-color: #efbe37;
+	background-color: #f4d179;
 }
 .turquoise {
-	background-color: #07d0dd;
+	background-color: #a5eae1;
 }
 
 img[class^="croix_"]{
 	position: absolute;
 	top:0;
 	right:0;
+	width: 10%;
 }
 div[class^=rond_]{
 	display:none;
