@@ -35,7 +35,7 @@ header>ul>li>a{
 	text-decoration: none;
 	color: black;
 }
-/******MAIN******/
+/******MAIN INDEX******/
 
 .slider {
 	background-size: contain;
@@ -69,7 +69,16 @@ div>h1+p{
 .lieux{
 	margin-top : 400px;
 }
-/*******FOOTER********/
+section{
+	margin-top: 50px;
+}
+
+/********MAIN PRODUITS******/
+.produits{
+	margin-top: 3%;
+}
+
+/*********FOOTER**********/
 
 footer{
   background: #ffffff;
