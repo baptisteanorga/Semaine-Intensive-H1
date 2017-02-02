@@ -52,7 +52,6 @@ header>ul>li>a{
 .slider>img {
 	max-width : 100%;
 	height: auto;
-	display: block;
 }
 .legende{
 	margin-top: 9%;
@@ -236,6 +235,9 @@ div[class^=rond_]{
 	text-align: center;
 }
 /******MAIN CULTURE COCO*****/
+.slide_culture>img{
+	width: 50%;
+}
 
 /*********FOOTER**********/
 

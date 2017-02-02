@@ -28,4 +28,4 @@ document.querySelector(".juillet").onclick = function () {
 	} else{
 		document.querySelector(".dates_juillet").style.display="none";
 	}
-}	
+}
