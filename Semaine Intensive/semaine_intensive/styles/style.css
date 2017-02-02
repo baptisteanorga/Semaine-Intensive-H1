@@ -235,10 +235,26 @@ div[class^=rond_]{
 	text-align: center;
 }
 /******MAIN CULTURE COCO*****/
-.slide_culture>img{
-	width: 50%;
+.slider-top{
+	background-color: inherit;
+	height: 40%;
+}
+.slider-bot{
+	background-color: inherit;
+	height: 40%;
+}
+img.slide_article{
+	width:70%;
+	margin:0 auto;
+}
+.slider-bot{
+	font-family: "terminaldosis";
 }
 
+.info_slide{
+	width: 70%;
+	margin:0  auto;
+}
 /*********FOOTER**********/
 
 footer{
