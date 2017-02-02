@@ -29,15 +29,15 @@ body{
 header>ul>li {
 	display: inline-block;
 	font-family: "mainlevee";
-	font-size: 25px;
+	font-size: 140%;
 }
 
 header>ul>li>a>img{
-	height: 50px;
+	width: 45%;
 	margin-top:5%;
 }
 header>ul>li.menu{
-	padding-top: 20px;
+	padding-top: 2%;
 }
 header>ul>li>a{
 	text-decoration: none;
@@ -55,33 +55,38 @@ header>ul>li>a{
 	display: block;
 }
 .legende{
-	margin-top: 100px;
+	margin-top: 12%;
 }
 .widget{
 	width: 25%;
 }
 div>h1+p{
 	font-family: "terminaldosis";
-	margin-top: -50px;
+	margin-top: 0%;
 }
 .vaivai{
 	font-family: "vaivai";
-	font-size : 100px;
+	font-size : 300%;
+}
+.plop{
+	margin-top: 15%;
 }
 
-.lieux{
-	margin-top : 400px;
-}
-section{
-	margin-top: 50px;
-}
+
+
+
+/**********INDEX LIEUX*****/
+
 
 /********MAIN PRODUITS******/
 div[class^=banniere_]{
-	margin-top: 20px;
+	margin-top: 2%;
+}
+.index{
+	margin-top: 0.8%;
 }
 .produits{
-	margin-top: 4%;
+	margin-top: 6%;
 	margin-bottom: 3%;
 }
 .produit_1, .produit_2, .produit_3, .produit_4, .produit_5, .produit_6, .produit_7, .produit_8, .produit_9{
@@ -125,6 +130,7 @@ div[class^=categorie_]>h3{
 .info_produits{
 	position:absolute;
 	border-radius: 50%;
+	filter:blur(2px);
 	width: 355px;
 	height: 355px;
 	margin : auto;
@@ -175,23 +181,14 @@ div[class^=rond_]{
 }
 
 
-
-
-
-
-
-
-
 /*********FOOTER**********/
 
 footer{
 	background: #ffffff;
 	text-align: center;
-	padding: 15px;
-	left: 0;
-	bottom: 0;
 	width: 100%;
-	height: 250px;
+	height: 100%;
+	padding-top: 10%;
 	overflow: hidden;
 }
 footer>ul>li{

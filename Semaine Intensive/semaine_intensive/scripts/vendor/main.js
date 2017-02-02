@@ -1,5 +1,7 @@
+/*****PRODUITS*****/
 document.querySelector(".plus_1").onclick = function () {
-	if (window.getComputedStyle(document.querySelector('.rond_1')).display=='none'){
+	if (window.getComputedStyle(document.querySelector('.rond_1')).display=='none') 
+	{
 		var tabRond = document.querySelectorAll(".rond");
 		for( i=0 ; i < tabRond.length ; i++)
 		{
@@ -18,7 +20,6 @@ document.querySelector(".plus_1").onclick = function () {
 		document.querySelector(".rond_1").style.display="block";
 		document.querySelector(".plus_1").style.display="none";
 		document.querySelector(".categorie_1").style.display="none";
-
 	}
 }
 document.querySelector(".plus_2").onclick = function() {
@@ -43,7 +44,6 @@ document.querySelector(".plus_2").onclick = function() {
 		document.querySelector(".categorie_2").style.display="none";
 	}
 }
-
 document.querySelector(".plus_3").onclick = function () {
 	if (window.getComputedStyle(document.querySelector('.rond_3')).display=='none'){
 		var tabRond = document.querySelectorAll(".rond");
@@ -203,7 +203,7 @@ document.querySelector(".croix_1").onclick = function() {
 		document.querySelector(".rond_1").style.display="none";
 		document.querySelector(".plus_1").style.display="block";
 		document.querySelector(".categorie_1").style.display="block";
-		
+
 	}
 }
 document.querySelector(".croix_2").onclick = function() {
@@ -262,3 +262,5 @@ document.querySelector(".croix_9").onclick = function() {
 		document.querySelector(".categorie_9").style.display="block";
 	}
 }
+
+/***LIEUX DATES****/
